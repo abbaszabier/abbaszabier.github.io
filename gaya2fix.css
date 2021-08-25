@@ -1,0 +1,86 @@
+/* Mobile Version */
+/*Blog */
+.blog {
+  margin-top: 120px;
+  color: white;
+  font-family: "poppins";
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.nav-item:nth-child(1) .nav-link:hover {
+  color: #ff8a00;
+}
+.nav-item:nth-child(3) .nav-link:hover {
+  color: #ff8a00;
+}
+.nav-item:last-child .nav-link:hover {
+  color: #ff8a00;
+}
+.footer {
+  font-size: 14px;
+  height: 50px;
+  padding-top: 14px;
+  color: white;
+  margin-top: 50px;
+}
+.content {
+  margin-top: 30px;
+}
+.judul {
+  color: white;
+  font-family: "poppins";
+  font-size: 30px;
+  text-align: center;
+}
+.des {
+  color: #d4d4d4;
+  text-align: center;
+}
+.time {
+  color: white;
+  text-align: center;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  /* Navbar */
+  .nav-link {
+    margin-right: 34px;
+    font-size: 16px;
+    font-family: "poppins";
+  }
+  .navbar-brand {
+    margin-left: 34px;
+  }
+  .navbar-nav {
+    text-transform: uppercase;
+  }
+
+  /*Blog */
+  .blog {
+    margin-top: 150px;
+    font-size: 40px;
+  }
+  .judul {
+    color: white;
+    font-family: "poppins";
+    font-size: 30px;
+    text-align: left;
+  }
+  .des {
+    color: #d4d4d4;
+    text-align: left;
+  }
+  .time {
+    color: white;
+    text-align: left;
+  }
+  .footer {
+    font-size: 14px;
+    height: 50px;
+    padding-top: 14px;
+    color: white;
+    margin-top: 100px;
+  }
+}

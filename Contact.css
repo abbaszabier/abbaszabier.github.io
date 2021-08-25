@@ -1,0 +1,153 @@
+/* Navbar */
+.nav-link {
+  margin-right: 34px;
+  font-size: 16px;
+  font-family: "poppins";
+}
+.navbar-brand {
+  margin-left: 34px;
+}
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.kartu {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgb(245, 245, 245);
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
+
+.kartu:hover {
+  transform: translateX(50%);
+}
+
+.kartu .imgbox {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  background: black;
+  transition: 1s;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.kartu:hover .imgbox {
+  transform: rotateY(-180deg);
+}
+
+.kartu .imgbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.kartu .imgbox img:nth-child(2) {
+  transform: rotateY(180deg);
+}
+
+.kartu .detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kartu .detail .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kartu .detail .content h3 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.kartu .detail .content h3 span {
+  color: #ff8a00;
+  font-size: 0.8em;
+}
+
+.kartu .detail .content .sosmed {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+}
+
+.kartu .detail .content .sosmed a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: chocolate;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.kartu .detail .content .sosmed a:hover {
+  background: #ff8a00;
+  transform: scale(1.1);
+}
+
+.kartu .detail .content .neo1 a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 30px;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  color: #ff8a00;
+  border-radius: 15px;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.7), 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.kartu .detail .content .neo1 a:hover {
+  position: relative;
+  display: inline-block;
+  padding: 8px 30px;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  color: #ff8a00;
+  border-radius: 15px;
+  box-shadow: inset -1px -1px 4px rgba(255, 255, 255, 0.7), inset 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kartu .detail .content .neo1 a:hover span {
+  display: inline-block;
+  transform: scale(0.94);
+}
+
+.neo1 {
+  margin-top: 15px;
+}

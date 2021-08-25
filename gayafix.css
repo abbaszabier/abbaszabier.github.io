@@ -1,0 +1,699 @@
+/* ##### MOBILE ##### */
+#mainNav {
+  box-shadow: none;
+  background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0 1rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ff8a00;
+}
+#mainNav .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+#mainNav.navbar-shrink {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #222;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+  color: #ff8a00;
+}
+a:hover {
+  color: #ff8a00;
+}
+/* Start Navbar */
+.navbar-brand {
+  margin-bottom: 3px;
+}
+.nav-item:nth-child(2) .nav-link:hover {
+  color: #ff8a00;
+}
+.nav-item:nth-child(3) .nav-link:hover {
+  color: #ff8a00;
+}
+.nav-item:last-child .nav-link:hover {
+  color: #ff8a00;
+}
+
+/* End Navbar */
+
+/* Start Hero */
+.display-1 {
+  font-size: 30px;
+  color: #ff8a00;
+  font-family: "poppins";
+  font-weight: 600;
+}
+.display-2 {
+  font-size: 44px;
+  font-family: "poppins";
+  font-weight: 700;
+  color: white;
+  line-height: 60px;
+}
+.container .hero .hero1 p {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d4d4d4;
+  margin-top: 24px;
+  font-weight: 350;
+  line-height: 26px;
+}
+.hero {
+  margin-top: 60px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+.hero1 {
+  margin-top: 40px;
+  text-align: center;
+}
+.container .hero .hero1 a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 100px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ff8a00;
+  border-radius: 15px;
+  box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .hero .hero1 a:hover {
+  position: relative;
+  display: inline-block;
+  padding: 10px 100px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ff8a00;
+  border-radius: 15px;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.03), inset 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.container .hero .hero1 a:hover span {
+  display: inline-block;
+  transform: scale(0.95);
+}
+
+.neo1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.neo2 {
+  text-align: center;
+}
+
+/*Start Service */
+.bgservice {
+  background-image: url(/img/bg-servicefix2.png);
+  background-position-y: 150px;
+}
+
+.container .service {
+  text-align: center;
+}
+.container .kartu {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  width: 280px;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+.container .kartu .konten {
+  padding: 20px;
+  margin-top: 90px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.container .kartu .konten h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 9em;
+  color: rgba(255, 255, 255, 0.15);
+  pointer-events: none;
+}
+
+.container .kartu .konten h3 {
+  font-size: 1.8em;
+  color: white;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.container .kartu .konten p {
+  font-size: 0.8em;
+  color: white;
+  font-weight: 400;
+}
+
+.container .kartu .konten a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0.5px 4px rgba(0, 0, 0, 0.05);
+}
+.kartu {
+  background-color: aquamarine;
+}
+
+/* Skill & Tool */
+.judul0 {
+  color: white;
+  font-size: 36px;
+  font-family: "poppins";
+  font-weight: 600;
+  top: 200;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+.judul1 {
+  color: white;
+  font-size: 36px;
+  font-family: "poppins";
+  font-weight: 600;
+  top: 200;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+.skill {
+  background-image: url(/img/cartographer.png);
+  background-attachment: fixed;
+  margin-top: 54px;
+}
+
+.judul2 {
+  color: white;
+  font-size: 36px;
+  font-family: "poppins";
+  font-weight: 600;
+  top: 200;
+  text-align: center;
+  margin-bottom: 22px;
+  margin-top: 54px;
+}
+.case {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  text-align: start;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+/* Hire */
+.judul3 {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  font-family: "poppins";
+  font-weight: 600;
+}
+.em {
+  margin-top: 20px;
+}
+.h {
+  padding-top: 12px;
+  color: white;
+  font-family: "poppins";
+  font-weight: 500;
+}
+.p {
+  color: #d4d4d4;
+  margin-top: 3px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.judul4 {
+  color: white;
+  font-family: "poppins";
+  font-weight: 600;
+  top: 200;
+  text-align: center;
+  padding-bottom: 22px;
+  margin-top: 50px;
+}
+.interes {
+  background-image: url(/img/cartographer.png);
+}
+.a {
+  color: white;
+  margin-top: 30px;
+}
+.y {
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-bottom: 28px;
+}
+.ilus {
+  margin-bottom: 30px;
+}
+.fe {
+  margin-bottom: 30px;
+}
+#image1 {
+  display: none;
+}
+#image2 {
+  display: block;
+}
+
+.nama {
+  text-decoration: none;
+}
+.case {
+  margin-top: 14px;
+}
+.case a {
+  color: white;
+  text-decoration: none;
+}
+.case a:hover {
+  color: #ff8a00;
+}
+.jrk {
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+/* Interested */
+.interestedd {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.containerr .kartu1 {
+  position: relative;
+  width: auto;
+  height: 350px;
+  display: flex;
+  transition: 0.5s;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url(/img/Rectangle\ 39.png);
+}
+.containerr .kartu1:hover {
+  height: 600px;
+  margin-bottom: 140px;
+  margin-top: 60px;
+}
+.containerr .kartu1 img {
+  position: absolute;
+  bottom: 0;
+  height: 355px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+.containerr .kartu1:hover img {
+  left: 50%;
+  height: 340px;
+}
+.containerr .kartu1 .content1 {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  padding: 26px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.containerr .kartu1:hover .content1 {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.containerr .kartu1 .content1 h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+.containerr .kartu1 .content1 p {
+  color: #d4d4d4;
+  text-align: center;
+}
+
+.containerr .kartu1 .content1 .neo1 a {
+  position: relative;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ff8a00;
+  border-radius: 15px;
+  box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+.containerr .kartu1 .content1 .neo1 a:hover {
+  position: relative;
+  display: flex;
+  padding: 10px 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ff8a00;
+  border-radius: 15px;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.03), inset 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.containerr .kartu1 .content1 .neo2 a {
+  display: none;
+}
+/* End Interested */
+
+footer {
+  background-image: url(/img/Rectangle\ 39.png);
+  height: 180px;
+  width: auto;
+  color: white;
+  padding-top: 10px;
+  margin-top: -100px;
+}
+.footer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer1 h3 {
+  font-size: 1.8em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.footer1 p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.socials {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+}
+
+.socials a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #ff8a00;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.footer2 {
+  text-align: center;
+  margin-bottom: -16px;
+  background-color: #121212;
+  font-size: 14px;
+}
+.footer2 p {
+  color: white;
+}
+.footer2 a {
+  color: white;
+}
+.footer2 a:hover {
+  color: #ff8a00;
+}
+
+/* ##### DESKTOP ##### */
+@media (min-width: 992px) {
+  /* Start Navbar */
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ff8a00;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #222;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #ff8a00;
+  }
+  .nav-link {
+    margin-right: 34px;
+    font-size: 16px;
+    font-family: "poppins";
+    text-transform: uppercase;
+  }
+  .navbar-brand {
+    margin-left: 34px;
+  }
+  /* End Navbar */
+
+  /* Start Hero */
+  .image {
+    justify-content: left;
+  }
+  #image1 {
+    display: block;
+  }
+  #image2 {
+    display: none;
+  }
+  .hero1 {
+    margin-top: 83px;
+    text-align: start;
+  }
+  .display-1 {
+    font-size: 30px;
+    color: #ff8a00;
+    font-family: "poppins";
+    font-weight: 600;
+  }
+
+  .display-2 {
+    font-size: 44px;
+    font-family: "poppins";
+    font-weight: 700;
+    color: white;
+    line-height: 60px;
+  }
+
+  .display-3 {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #d4d4d4;
+    margin-top: 24px;
+    line-height: 22px;
+  }
+  .hero {
+    margin-top: 78px;
+    text-align: start;
+  }
+  .bgservice {
+    background-image: url(/img/bg-servicefix2.png);
+    background-position-y: 150px;
+  }
+  .container .kartu .konten a:hover {
+    background: #ff8a00;
+    color: white;
+  }
+  .container .kartu:hover h3 {
+    color: #ff8a00;
+  }
+  .a {
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-top: 34px;
+    color: white;
+  }
+  .y {
+    margin-top: 32px;
+    margin-right: 60px;
+    margin-bottom: 28px;
+  }
+  .jrk {
+    margin-bottom: 36px;
+    margin-top: 16px;
+  }
+  .em {
+    margin-top: 0px;
+  }
+  .case {
+    margin-top: 14px;
+  }
+  .case a {
+    color: white;
+    text-decoration: none;
+  }
+  .case a:hover {
+    color: #ff8a00;
+  }
+  .interes {
+    background-image: url(/img/cartographer.png);
+  }
+
+  .container .hero .hero1 a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: #ff8a00;
+    border-radius: 15px;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .container .hero .hero1 a:hover {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ff8a00;
+    border-radius: 15px;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.03), inset 2px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  .container .hero .hero1 a:hover span {
+    display: inline-block;
+    transform: scale(0.95);
+  }
+  .neo1 {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .neo2 {
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 20px;
+  }
+  .hero {
+    display: flex;
+  }
+  .containerr .kartu1 .content1 p {
+    color: #d4d4d4;
+  }
+
+  .skill {
+    background-image: url(/img/cartographer.png);
+    margin-top: 54px;
+  }
+  /* Interestedd */
+  .containerr .kartu1 {
+    position: relative;
+    width: 800px;
+    height: 350px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/img/Rectangle\ 39.png);
+  }
+  .containerr .kartu1:hover {
+    height: 350px;
+  }
+  .containerr .kartu1:hover img {
+    left: 80%;
+    height: 420px;
+  }
+  .containerr .kartu1 .content1 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 26px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .containerr .kartu1 .content1 a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ff8a00;
+    border-radius: 15px;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  .containerr .kartu1 .content1 a:hover {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ff8a00;
+    border-radius: 15px;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.03), inset 2px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  .containerr .kartu1 .content1 h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: left;
+  }
+  .containerr .kartu1 .content1 p {
+    color: #d4d4d4;
+    text-align: left;
+  }
+  .containerr .kartu1 .content1 .neo2 a {
+    display: flex;
+  }
+}

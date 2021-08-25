@@ -1,0 +1,101 @@
+/* Mobile Version */
+/*Project */
+.project {
+  margin-top: 120px;
+  color: white;
+  font-family: "poppins";
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+a:hover {
+  color: #ff8a00;
+  opacity: 100%;
+}
+.clik {
+  text-align: center;
+  font-size: 20px;
+}
+.web {
+  color: white;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+.mobile {
+  color: white;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  opacity: 50%;
+}
+.interes {
+  background-image: url(/img/Rectangle.png);
+  margin-top: 60px;
+}
+.a {
+  color: white;
+  margin-top: 30px;
+}
+.y {
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-bottom: 28px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  /* Navbar */
+  .nav-link {
+    margin-right: 34px;
+    font-size: 16px;
+    font-family: "poppins";
+  }
+  .navbar-brand {
+    margin-left: 34px;
+  }
+  .navbar-nav {
+    text-transform: uppercase;
+  }
+
+  /*Project */
+  .project {
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+  .web {
+    color: white;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .mobile {
+    color: white;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .clik {
+    text-align: left;
+  }
+  .a {
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-top: 34px;
+    color: white;
+  }
+  .y {
+    margin-top: 32px;
+    margin-right: 60px;
+    margin-bottom: 28px;
+  }
+}
