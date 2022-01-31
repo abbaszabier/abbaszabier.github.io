@@ -9,6 +9,11 @@
   "description": "Selamat Datang di Website Portfolio Saya",
   "icons": [
     {
+      "src": "/img/icon-52x52.png",
+      "sizes": "52x52",
+      "type": "image/png"
+    },
+    {
       "src": "/img/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
