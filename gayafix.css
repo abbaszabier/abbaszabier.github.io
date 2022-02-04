@@ -133,8 +133,8 @@ a:hover {
   align-items: center;
   max-width: 1200px;
   flex-wrap: wrap;
-  width: 280px;
-  height: 400px;
+  width: 180px;
+  height: 300px;
   margin-top: 15px;
   margin-bottom: 15px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -147,8 +147,8 @@ a:hover {
 }
 
 .container .kartu .konten {
-  padding: 20px;
-  margin-top: 90px;
+  padding: 5px;
+  margin-top: 80px;
   text-align: center;
   transition: 0.5s;
 }
@@ -157,13 +157,13 @@ a:hover {
   position: absolute;
   top: -10px;
   right: 30px;
-  font-size: 9em;
+  font-size: 7em;
   color: rgba(255, 255, 255, 0.15);
   pointer-events: none;
 }
 
 .container .kartu .konten h3 {
-  font-size: 1.8em;
+  font-size: 1.2em;
   color: white;
   z-index: 1;
   font-weight: 700;
@@ -554,6 +554,49 @@ footer {
   .container .kartu {
     margin-left: 40px;
     margin-right: 40px;
+    width: 280px;
+    height: 400px;
+  }
+  .container .kartu .konten {
+    padding: 20px;
+    margin-top: 90px;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .container .kartu .konten h2 {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 9em;
+    color: rgba(255, 255, 255, 0.15);
+    pointer-events: none;
+  }
+
+  .container .kartu .konten h3 {
+    font-size: 1.8em;
+    color: white;
+    z-index: 1;
+    font-weight: 700;
+  }
+
+  .container .kartu .konten p {
+    font-size: 0.8em;
+    color: white;
+    font-weight: 400;
+  }
+
+  .container .kartu .konten a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0.5px 4px rgba(0, 0, 0, 0.05);
   }
   .container .kartu .konten a:hover {
     background: #ff8a00;
