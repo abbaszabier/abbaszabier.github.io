@@ -297,6 +297,8 @@ a:hover {
 }
 #image2 {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .nama {
