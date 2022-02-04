@@ -13,7 +13,7 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-var CACHE_NAME = "my-site-cache-v1";
+var CACHE_NAME = "my-site-cache-v3";
 var urlsToCache = [
   "/",
   "/img/Abbas Zabier.png",
